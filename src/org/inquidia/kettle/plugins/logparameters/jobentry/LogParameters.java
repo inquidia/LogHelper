@@ -55,7 +55,7 @@ import java.util.List;
  * @author Chris
  * @since 2015-04-30
  */
-@JobEntry( id = "LogParametersPlugin", image = "VTL.png", name = "LogParameters.Name",
+@JobEntry( id = "LogParametersPlugin", image = "VTL.svg", name = "LogParameters.Name",
         description = "LogParameters.Description",
         categoryDescription = "i18n:org.pentaho.di.job:JobCategory.Category.Utility",
         i18nPackageName = "org.inquidia.kettle.plugins.logparameters.jobentry",

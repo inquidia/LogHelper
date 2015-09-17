@@ -51,7 +51,7 @@ import java.util.List;
  * Created on 04-may-2015
  *
  */
-@Step( id="LogParametersStep", image="VTL.png", name="LogParameters.Name", description="LogParameters.Description",
+@Step( id="LogParametersStep", image="VTL.svg", name="LogParameters.Name", description="LogParameters.Description",
         categoryDescription = "Category.Description", i18nPackageName = "org.inquidia.kettle.plugins.logparameters.step",
         isSeparateClassLoaderNeeded = false,
         documentationUrl = "https://github.com/inquidia/LogHelper",

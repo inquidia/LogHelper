@@ -58,7 +58,7 @@ import java.util.ListIterator;
  * @author Chris
  * @since 2015-09-17
  */
-@JobEntry( id = "LogToVarPlugin", image = "LTV.png", name = "SetLogToVariable.Name",
+@JobEntry( id = "LogToVarPlugin", image = "LTV.svg", name = "SetLogToVariable.Name",
         description = "SetLogToVariable.Description",
         categoryDescription = "i18n:org.pentaho.di.job:JobCategory.Category.Utility",
         i18nPackageName = "org.inquidia.kettle.plugins.setlogtovariables.jobentry",

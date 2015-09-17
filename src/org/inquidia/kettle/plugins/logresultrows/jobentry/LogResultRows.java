@@ -58,7 +58,7 @@ import java.util.List;
  * @author Chris
  * @since 2015-04-30
  */
-@JobEntry( id = "LogResultRowsPlugin", image = "RTL.png", name = "LogResultRows.Name",
+@JobEntry( id = "LogResultRowsPlugin", image = "RTL.svg", name = "LogResultRows.Name",
         description = "LogResultRows.Description",
         categoryDescription = "i18n:org.pentaho.di.job:JobCategory.Category.Utility",
         i18nPackageName = "org.inquidia.kettle.plugins.logpresultrows.jobentry",

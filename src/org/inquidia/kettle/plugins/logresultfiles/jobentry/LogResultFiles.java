@@ -56,7 +56,7 @@ import java.util.List;
  * @author Chris
  * @since 2015-04-30
  */
-@JobEntry( id = "LogResultFilesPlugin", image = "FTL.png", name = "LogResultFiles.Name",
+@JobEntry( id = "LogResultFilesPlugin", image = "FTL.svg", name = "LogResultFiles.Name",
         description = "LogResultFiles.Description",
         categoryDescription = "i18n:org.pentaho.di.job:JobCategory.Category.Utility",
         i18nPackageName = "org.inquidia.kettle.plugins.logpresultfiles.jobentry",
