@@ -13,13 +13,8 @@ Developed by [Inquidia Consulting](www.inquidia.com).
 
 System Requirements
 ---
-**Version 1.0 for 5.0-3**
 
--Pentaho Data Integration 5.0 to 5.3
-
-**Version 1.0**
-
--Pentaho Data Integration 5.4 or above
+- Pentaho Data Integration 5.4 or above
 
 Installation
 ---
@@ -79,17 +74,22 @@ Often at the end of a job, especially if the job fails you want to do something 
 * The maximum number of log lines that can be returned is configured by the KETTLE_MAX_LOGGING_REGISTRY_SIZE variable.  It simply is not possible to get logging events older than this limit.
 * This job entry must be able to fit the entire log for the job into memory.  If you have a very large log you may run into Out of Memory issues.
 
-Building from Source
----
-The Log Helper Plugin is built using Ant.  Since I do not want to deal with the complexities of Ivy the following instructions must be followed before building this plugin.
+## Contributing
 
-1. Edit the build.properties file.
-2. Set pentahoclasspath to the data-integration/lib directory on your machine.
-3. Set the pentahoswtclasspath to the data-integration/libswt directory on your machine.
-4. Set the pentahobigdataclasspath to the data-integration/plugins/pentaho-big-data-plugin/lib directory on your machine.
-5. Run "ant dist" to build the plugin.
+Thew Log Helper Plugin for PDI is a community supported plugin.  We encourage and support an active community that accepts contribution from the public -- including you!  Community contributions take all forms from filing issues, to improving documentation, to patching code or offering improvements.
 
-**Build Note:**
-In Pentaho 5.4 a backward incompatibility was introduced for job entry plugins.  Although the same code can be used for both PDI versions above and below 5.4, the version of the PDI libraries used when building this plugin matter.
+To contribute:
 
-If you plan to use this plugin with PDI 5.3 or below you must build using PDI 5.3 or below libraries.  If you plan to use this plugin with PDI 5.4 and above, you must build using PDI 5.4 or above libraries.
+ * The Log Helper Plugin for PDI uses Github as its issue tracking system.  Issues may be submitted at [https://github.com/inquidia/LogHelper/issues](https://github.com/inquidia/LogHelper/issues)
+ * To improve documentation, or submit code improvements/patches fork this repository, make your changes, and submit a pull request to this repository.  We will then review your contribution and accept as appropriate.
+ * The Log Helper Plugin for PDI follows the [Pentaho coding standards](https://github.com/pentaho/pentaho-coding-standards).  Please make sure any contributions follow these standards.
+
+## Copyright & License
+
+Copyright (C) 2016 by Inquidia Consulting : http://www.inquidia.com
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
